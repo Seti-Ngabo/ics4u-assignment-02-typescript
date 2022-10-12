@@ -11,7 +11,7 @@ import promptSync from 'prompt-sync'
 const prompt = promptSync()
 
 // Input
-const userInput = prompt('Enter any string and numbers: ')
+const userInput = prompt('Enter any string with numbers: ')
 
 // Proccess
 const logic1 = userInput.split('')
