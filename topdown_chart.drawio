@@ -49,13 +49,13 @@
                 <mxCell id="12" value="Split userInput into a list of characters" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="-80" y="250" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="14" value="Loop concatenation n times of a letter beside the digit" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="14" value="Loop&amp;nbsp; the times of the&amp;nbsp;&lt;span id=&quot;docs-internal-guid-b15dee8e-7fff-549d-9cad-097204f311ef&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;cabin&amp;#34; , sans-serif ; background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;occurrences of the digit to the right of the string&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="80" y="250" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="16" value="Replace item with a newString" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="240" y="250" width="120" height="60" as="geometry"/>
+                <mxCell id="16" value="Replace string with a newString" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="243" y="250" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="18" value="Join strings inside newText list" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="18" value="Join strings and&amp;nbsp; print the finalOutput" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="400" y="250" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="20" value="newTextString" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
