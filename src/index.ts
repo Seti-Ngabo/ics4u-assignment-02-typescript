@@ -19,29 +19,29 @@ const logic2 = []
 
 // loop counter
 for (let count = 0; count < logic1.length; count++) {
-  const newString = logic1[count]
-  let string = ''
-  if (isNaN(Number(newString))) {
+  const string = logic1[count]
+  let newString = ''
+  if (isNaN(Number(string))) {
     if (count - 1 !== -1) {
       if (isNaN(Number(logic1[count - 1]))) {
-        string = newString
-        logic2.push(string)
+        newString = string
+        logic2.push(newString)
       }
     } else {
-      string = newString
-      logic2.push(string)
+      newString = string
+      logic2.push(newString)
     }
   } else {
     if (logic1[count + 1] !== undefined) {
-      for (let count2 = 0; count2 < Number(newString); count2++) {
-        string = string.concat(logic1[count + 1])
+      for (let count2 = 0; count2 < Number(string); count2++) {
+        newString = newString.concat(logic1[count + 1])
       }
     }
     if (isNaN(Number(logic1[count + 1]))) {
       count = count + 1
     }
 
-    logic2.push(string)
+    logic2.push(newString)
   }
 }
 
