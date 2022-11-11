@@ -36,39 +36,39 @@ function blowUp(string: string): string {
     firstString = logic[count]
     firstInt = parseInt(firstString)
     if (count + 1 != logic.length) {
-            secondString = logic[count +1]
-            secondInt = parseInt(secondString)
-    if (isNaN(firstInt)) {
-            finalLogic.push(firstString)
-            continue
-    } else if (Number.isInteger(firstInt) && Number.isInteger(secondInt)) {
-            continue
-        } else {
-                for (let i = 0; i < firstInt; i++) {
-                        finalLogic.push(secondString)
+      secondString = logic[count + 1]
+      secondInt = parseInt(secondString)
+      if (isNaN(firstInt)) {
+        finalLogic.push(firstString)
+        continue
+      } else if (Number.isInteger(firstInt) && Number.isInteger(secondInt)) {
+        continue
+      } else {
+        for (let i = 0; i < firstInt; i++) {
+          finalLogic.push(secondString)
+        }
+        continue
       }
-      continue
-    }
-    // if the secondString
+      // if the secondString
     } else {
-        if (isNaN(firstInt)) {
-                  finalLogic.push(firstString)
-          } else {
-                  continue
-          }
+      if (isNaN(firstInt)) {
+        finalLogic.push(firstString)
+      } else {
+        continue
+      }
     }
   }
-    
+
   const finalOutput = finalLogic.join('')
   return finalOutput
 }
 
- // output
+// output
 let newString: string
 if (userInput !== '') {
-        newString = blowUp(userInput)
-        console.log(newString)
+  newString = blowUp(userInput)
+  console.log(newString)
 } else {
-        console.log('\nInsert a string with a number.')
+  console.log('\nInsert a string with a number.')
 }
 console.log('\nDone.')
